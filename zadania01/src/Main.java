@@ -37,14 +37,28 @@ Scanner sc= new Scanner(System.in);
     String slowo2 = sc.next();
     String slowo3 = sc.next();
     System.out.println(slowo3 + ", " + slowo2 + ", " + slowo1);
+
+    System.out.print("Podaj jeden wyraz: ");
+    String wyraz = sc.next();
+    int liczbaZnakow = wyraz.length();
+    System.out.println(liczbaZnakow);
+
+
+
+    int x = 5;
+    int y = 2;
+    double wynik = (double)x / y;
+    System.out.println(wynik);
+
+
+    System.out.print("Podaj słowo: ");
+    String slowo = sc.next();
+    String wielkieLitery = slowo.toUpperCase();
+    System.out.println(wielkieLitery);
 }
 
 
 
 
 
-///Napisz program, który wczyta od użytkownika trzy słowa i wypisze je w odwrotnej kolejności, niż podał je użytkownik, oddzielone przecinkami. Dla przykładu, gdy użytkownik poda:
-///
-/// Ala
-/// ma
-/// kota
+///Napisz program, który pobierze od użytkownika słowo i wypisze je z małymi literami zamienionymi na wielkie. Skorzystaj z metody toUpperCase typu String.
