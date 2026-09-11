@@ -7,5 +7,11 @@ void main() {
     IO.println(String.format("Bartek"));
     IO.println(String.format("Kasia"));
 
+    String imie = "Kacper";
+    int rok_urodzenia =2007;
+    double liczba =0.66;
+    int wiek = 2026-rok_urodzenia;
+
+    System.out.println("Mam na imię "+imie+"  "+"mam "+wiek+" lat  i będę pisać maturę za"+liczba+" roku");
 
 }
